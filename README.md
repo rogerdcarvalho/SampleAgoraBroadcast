@@ -5,9 +5,9 @@ A simple proof-of-concept app using the Agora.io Live Interactive Video Streamin
 This is a simple Xcode project for iPhone and iPad. It uses the [Agora Live Interactive Video Streaming SDK](https://docs.agora.io/en/Interactive%20Broadcast/start_live_ios?platform=iOS) to enable a user to broadcast a live video stream to up to 17 viewers. Whenever users open this app, they can choose to be either a 'Speaker' or an 'Audience' member. As a 'Speaker', they instantly start broadcasting their video and microphone to other users of the app. When a user opens the app as an 'Audience' member, the app simply waits for someone to start broadcasting as 'Speaker' and then displays their live stream. Speakers can trigger [SurveyMonkey](https://github.com/SurveyMonkey/surveymonkey-ios-sdk) questionnaires for all viewers of their stream whenever they want to ask viewers for feedback or information. SurveyMonkey supports dozens of question formats and polls. Their web dashboard updates in real time, so this allows 'Speakers' to ask their viewers a plethora of questions during their live stream while being able to view and analyze the responses instantly as they occur during the broadcast. 
 
 ![screenshot 1](https://rogerdcarvalho.com/agora-1.jpg "One-click livestreaming")
-![screenshot 2](https://rogerdcarvalho.com/agora-2.jpg "Trigger surveys during broadcast")
-![screenshot 3](https://rogerdcarvalho.com/agora-3.jpg "Users respond instantly")
-![screenshot 4](https://rogerdcarvalho.com/agora-4.jpg "Analyze results in real time")
+    ![screenshot 2](https://rogerdcarvalho.com/agora-2.jpg "Trigger surveys during broadcast")
+    ![screenshot 3](https://rogerdcarvalho.com/agora-3.jpg "Users respond instantly")
+    ![screenshot 4](https://rogerdcarvalho.com/agora-4.jpg "Analyze results in real time")
 
 ## Instructions
 Clone this repository to your local machine. This repository requires [CocoaPods](https://cocoapods.org). Terminal into the root folder of the project and run `pod install`. Then open `SampleAgoraBroadcast.xcworkspace`. Click on the `SampleAgoraBroadcast` project and then on `Signing & Capabilities`. Check `Automatically Manage Signing` and select any team that works for your Xcode installation. 
