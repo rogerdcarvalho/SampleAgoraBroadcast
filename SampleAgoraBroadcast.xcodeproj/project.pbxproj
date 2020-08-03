@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031E9A0702C5B2F590914A4A /* Pods_SampleAgoraBroadcast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE28B7339E4B2DE9ECE2649 /* Pods_SampleAgoraBroadcast.framework */; };
+		4429B7D4C2D33D71D4ABA923 /* Pods_SampleAgoraBroadcast_SampleAgoraBroadcastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E89C97CF0E6231474BEF31 /* Pods_SampleAgoraBroadcast_SampleAgoraBroadcastUITests.framework */; };
 		DB171C1B24D7EEA300FEBA0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C1A24D7EEA300FEBA0D /* AppDelegate.swift */; };
 		DB171C1D24D7EEA300FEBA0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C1C24D7EEA300FEBA0D /* SceneDelegate.swift */; };
-		DB171C1F24D7EEA300FEBA0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C1E24D7EEA300FEBA0D /* ViewController.swift */; };
+		DB171C1F24D7EEA300FEBA0D /* ModeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C1E24D7EEA300FEBA0D /* ModeSelectionViewController.swift */; };
 		DB171C2224D7EEA300FEBA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB171C2024D7EEA300FEBA0D /* Main.storyboard */; };
 		DB171C2424D7EEA300FEBA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB171C2324D7EEA300FEBA0D /* Assets.xcassets */; };
 		DB171C2724D7EEA300FEBA0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB171C2524D7EEA300FEBA0D /* LaunchScreen.storyboard */; };
 		DB171C3224D7EEA300FEBA0D /* SampleAgoraBroadcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C3124D7EEA300FEBA0D /* SampleAgoraBroadcastTests.swift */; };
 		DB171C3D24D7EEA300FEBA0D /* SampleAgoraBroadcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C3C24D7EEA300FEBA0D /* SampleAgoraBroadcastUITests.swift */; };
+		DB171C4B24D7F26200FEBA0D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C4A24D7F26200FEBA0D /* UIView.swift */; };
+		DB171C5024D7FCC500FEBA0D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C4F24D7FCC500FEBA0D /* Configuration.swift */; };
+		DB171C5424D7FF9C00FEBA0D /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C5324D7FF9C00FEBA0D /* BroadcastViewController.swift */; };
+		DB171C5624D800B800FEBA0D /* AgoraErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C5524D800B800FEBA0D /* AgoraErrorCode.swift */; };
+		DB171C5824D8011100FEBA0D /* AgoraWarningCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C5724D8011100FEBA0D /* AgoraWarningCode.swift */; };
+		DB171C5B24D8040500FEBA0D /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C5A24D8040500FEBA0D /* Segues.swift */; };
+		DB171C5F24D8119F00FEBA0D /* AudienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C5E24D8119F00FEBA0D /* AudienceViewController.swift */; };
+		DB171C6324D82FD800FEBA0D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C6224D82FD800FEBA0D /* UIViewController.swift */; };
+		DB171C6524D8429900FEBA0D /* StreamMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C6424D8429900FEBA0D /* StreamMessage.swift */; };
+		DB171C6724D8445F00FEBA0D /* StreamMessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB171C6624D8445F00FEBA0D /* StreamMessageType.swift */; };
+		FB2105A03BB0E9171BA52673 /* Pods_SampleAgoraBroadcastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31719F062C802FED2A221761 /* Pods_SampleAgoraBroadcastTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31719F062C802FED2A221761 /* Pods_SampleAgoraBroadcastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAgoraBroadcastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C0B230F062ED85ECCE5E43 /* Pods-SampleAgoraBroadcast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAgoraBroadcast.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAgoraBroadcast/Pods-SampleAgoraBroadcast.release.xcconfig"; sourceTree = "<group>"; };
+		35E89C97CF0E6231474BEF31 /* Pods_SampleAgoraBroadcast_SampleAgoraBroadcastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAgoraBroadcast_SampleAgoraBroadcastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D07AB977CCB88FA7759C1E /* Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		784417D75388D5DDD41E0F49 /* Pods-SampleAgoraBroadcastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAgoraBroadcastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAgoraBroadcastTests/Pods-SampleAgoraBroadcastTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C7E853B5BD528C407340838 /* Pods-SampleAgoraBroadcastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAgoraBroadcastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAgoraBroadcastTests/Pods-SampleAgoraBroadcastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E90859E3472920CD9E52248 /* Pods-SampleAgoraBroadcast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAgoraBroadcast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAgoraBroadcast/Pods-SampleAgoraBroadcast.debug.xcconfig"; sourceTree = "<group>"; };
+		BA36A8C257A06CDF9474B72B /* Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BEE28B7339E4B2DE9ECE2649 /* Pods_SampleAgoraBroadcast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAgoraBroadcast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB171C1724D7EEA300FEBA0D /* SampleAgoraBroadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAgoraBroadcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB171C1A24D7EEA300FEBA0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB171C1C24D7EEA300FEBA0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB171C1E24D7EEA300FEBA0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB171C1E24D7EEA300FEBA0D /* ModeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionViewController.swift; sourceTree = "<group>"; };
 		DB171C2124D7EEA300FEBA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB171C2324D7EEA300FEBA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB171C2624D7EEA300FEBA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +71,17 @@
 		DB171C3824D7EEA300FEBA0D /* SampleAgoraBroadcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAgoraBroadcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB171C3C24D7EEA300FEBA0D /* SampleAgoraBroadcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAgoraBroadcastUITests.swift; sourceTree = "<group>"; };
 		DB171C3E24D7EEA300FEBA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB171C4A24D7F26200FEBA0D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		DB171C4F24D7FCC500FEBA0D /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		DB171C5324D7FF9C00FEBA0D /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		DB171C5524D800B800FEBA0D /* AgoraErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraErrorCode.swift; sourceTree = "<group>"; };
+		DB171C5724D8011100FEBA0D /* AgoraWarningCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraWarningCode.swift; sourceTree = "<group>"; };
+		DB171C5A24D8040500FEBA0D /* Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
+		DB171C5E24D8119F00FEBA0D /* AudienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudienceViewController.swift; sourceTree = "<group>"; };
+		DB171C6224D82FD800FEBA0D /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		DB171C6424D8429900FEBA0D /* StreamMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamMessage.swift; sourceTree = "<group>"; };
+		DB171C6624D8445F00FEBA0D /* StreamMessageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamMessageType.swift; sourceTree = "<group>"; };
+		DB171C6A24D8535200FEBA0D /* SampleAgoraBroadcast-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SampleAgoraBroadcast-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031E9A0702C5B2F590914A4A /* Pods_SampleAgoraBroadcast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2105A03BB0E9171BA52673 /* Pods_SampleAgoraBroadcastTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +105,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4429B7D4C2D33D71D4ABA923 /* Pods_SampleAgoraBroadcast_SampleAgoraBroadcastUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		588533DCBE0B4738D787C0EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE28B7339E4B2DE9ECE2649 /* Pods_SampleAgoraBroadcast.framework */,
+				35E89C97CF0E6231474BEF31 /* Pods_SampleAgoraBroadcast_SampleAgoraBroadcastUITests.framework */,
+				31719F062C802FED2A221761 /* Pods_SampleAgoraBroadcastTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB171C0E24D7EEA300FEBA0D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				DB171C3024D7EEA300FEBA0D /* SampleAgoraBroadcastTests */,
 				DB171C3B24D7EEA300FEBA0D /* SampleAgoraBroadcastUITests */,
 				DB171C1824D7EEA300FEBA0D /* Products */,
+				F84117FB609C19272BAE9398 /* Pods */,
+				588533DCBE0B4738D787C0EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +147,14 @@
 		DB171C1924D7EEA300FEBA0D /* SampleAgoraBroadcast */ = {
 			isa = PBXGroup;
 			children = (
+				DB171C4C24D7FC6400FEBA0D /* Extensions */,
+				DB171C5924D803E600FEBA0D /* Helpers */,
+				DB171C4E24D7FC8D00FEBA0D /* Resources */,
+				DB171C6B24D870FD00FEBA0D /* Supporting Files */,
+				DB171C4D24D7FC7100FEBA0D /* ViewControllers */,
 				DB171C1A24D7EEA300FEBA0D /* AppDelegate.swift */,
-				DB171C1C24D7EEA300FEBA0D /* SceneDelegate.swift */,
-				DB171C1E24D7EEA300FEBA0D /* ViewController.swift */,
-				DB171C2024D7EEA300FEBA0D /* Main.storyboard */,
-				DB171C2324D7EEA300FEBA0D /* Assets.xcassets */,
-				DB171C2524D7EEA300FEBA0D /* LaunchScreen.storyboard */,
 				DB171C2824D7EEA300FEBA0D /* Info.plist */,
+				DB171C1C24D7EEA300FEBA0D /* SceneDelegate.swift */,
 			);
 			path = SampleAgoraBroadcast;
 			sourceTree = "<group>";
@@ -128,6 +177,69 @@
 			path = SampleAgoraBroadcastUITests;
 			sourceTree = "<group>";
 		};
+		DB171C4C24D7FC6400FEBA0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB171C5524D800B800FEBA0D /* AgoraErrorCode.swift */,
+				DB171C5724D8011100FEBA0D /* AgoraWarningCode.swift */,
+				DB171C4A24D7F26200FEBA0D /* UIView.swift */,
+				DB171C6224D82FD800FEBA0D /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB171C4D24D7FC7100FEBA0D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB171C1E24D7EEA300FEBA0D /* ModeSelectionViewController.swift */,
+				DB171C5324D7FF9C00FEBA0D /* BroadcastViewController.swift */,
+				DB171C5E24D8119F00FEBA0D /* AudienceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DB171C4E24D7FC8D00FEBA0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB171C2324D7EEA300FEBA0D /* Assets.xcassets */,
+				DB171C2024D7EEA300FEBA0D /* Main.storyboard */,
+				DB171C2524D7EEA300FEBA0D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB171C5924D803E600FEBA0D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DB171C5A24D8040500FEBA0D /* Segues.swift */,
+				DB171C6424D8429900FEBA0D /* StreamMessage.swift */,
+				DB171C6624D8445F00FEBA0D /* StreamMessageType.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DB171C6B24D870FD00FEBA0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB171C4F24D7FCC500FEBA0D /* Configuration.swift */,
+				DB171C6A24D8535200FEBA0D /* SampleAgoraBroadcast-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F84117FB609C19272BAE9398 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E90859E3472920CD9E52248 /* Pods-SampleAgoraBroadcast.debug.xcconfig */,
+				33C0B230F062ED85ECCE5E43 /* Pods-SampleAgoraBroadcast.release.xcconfig */,
+				53D07AB977CCB88FA7759C1E /* Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.debug.xcconfig */,
+				BA36A8C257A06CDF9474B72B /* Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.release.xcconfig */,
+				9C7E853B5BD528C407340838 /* Pods-SampleAgoraBroadcastTests.debug.xcconfig */,
+				784417D75388D5DDD41E0F49 /* Pods-SampleAgoraBroadcastTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB171C4124D7EEA300FEBA0D /* Build configuration list for PBXNativeTarget "SampleAgoraBroadcast" */;
 			buildPhases = (
+				117031297142CEED88806A40 /* [CP] Check Pods Manifest.lock */,
 				DB171C1324D7EEA300FEBA0D /* Sources */,
 				DB171C1424D7EEA300FEBA0D /* Frameworks */,
 				DB171C1524D7EEA300FEBA0D /* Resources */,
+				3D7C2EE231AC9F3B2642DC81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB171C4424D7EEA300FEBA0D /* Build configuration list for PBXNativeTarget "SampleAgoraBroadcastTests" */;
 			buildPhases = (
+				98B954875F84F4AF74D21D10 /* [CP] Check Pods Manifest.lock */,
 				DB171C2924D7EEA300FEBA0D /* Sources */,
 				DB171C2A24D7EEA300FEBA0D /* Frameworks */,
 				DB171C2B24D7EEA300FEBA0D /* Resources */,
@@ -170,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB171C4724D7EEA300FEBA0D /* Build configuration list for PBXNativeTarget "SampleAgoraBroadcastUITests" */;
 			buildPhases = (
+				FDCF61DA1EF4AA49F44A9E08 /* [CP] Check Pods Manifest.lock */,
 				DB171C3424D7EEA300FEBA0D /* Sources */,
 				DB171C3524D7EEA300FEBA0D /* Frameworks */,
 				DB171C3624D7EEA300FEBA0D /* Resources */,
+				2B04ADEB1995C75714DC53EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +371,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		117031297142CEED88806A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleAgoraBroadcast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B04ADEB1995C75714DC53EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests-frameworks.sh",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraRtcKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraRtcKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D7C2EE231AC9F3B2642DC81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SampleAgoraBroadcast/Pods-SampleAgoraBroadcast-frameworks.sh",
+				"${PODS_ROOT}/AgoraRtcEngine_iOS/AgoraRtcKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraRtcKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleAgoraBroadcast/Pods-SampleAgoraBroadcast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98B954875F84F4AF74D21D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleAgoraBroadcastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCF61DA1EF4AA49F44A9E08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB171C1324D7EEA300FEBA0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB171C1F24D7EEA300FEBA0D /* ViewController.swift in Sources */,
+				DB171C1F24D7EEA300FEBA0D /* ModeSelectionViewController.swift in Sources */,
+				DB171C6724D8445F00FEBA0D /* StreamMessageType.swift in Sources */,
+				DB171C5B24D8040500FEBA0D /* Segues.swift in Sources */,
+				DB171C5024D7FCC500FEBA0D /* Configuration.swift in Sources */,
+				DB171C6324D82FD800FEBA0D /* UIViewController.swift in Sources */,
+				DB171C5624D800B800FEBA0D /* AgoraErrorCode.swift in Sources */,
+				DB171C4B24D7F26200FEBA0D /* UIView.swift in Sources */,
+				DB171C5824D8011100FEBA0D /* AgoraWarningCode.swift in Sources */,
+				DB171C6524D8429900FEBA0D /* StreamMessage.swift in Sources */,
 				DB171C1B24D7EEA300FEBA0D /* AppDelegate.swift in Sources */,
+				DB171C5F24D8119F00FEBA0D /* AudienceViewController.swift in Sources */,
+				DB171C5424D7FF9C00FEBA0D /* BroadcastViewController.swift in Sources */,
 				DB171C1D24D7EEA300FEBA0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +652,7 @@
 		};
 		DB171C4224D7EEA300FEBA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E90859E3472920CD9E52248 /* Pods-SampleAgoraBroadcast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +664,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.rdcmedia.SampleAgoraBroadcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleAgoraBroadcast/Supporting Files/SampleAgoraBroadcast-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +672,7 @@
 		};
 		DB171C4324D7EEA300FEBA0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C0B230F062ED85ECCE5E43 /* Pods-SampleAgoraBroadcast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,6 +684,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.rdcmedia.SampleAgoraBroadcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleAgoraBroadcast/Supporting Files/SampleAgoraBroadcast-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +692,7 @@
 		};
 		DB171C4524D7EEA300FEBA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7E853B5BD528C407340838 /* Pods-SampleAgoraBroadcastTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +715,7 @@
 		};
 		DB171C4624D7EEA300FEBA0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784417D75388D5DDD41E0F49 /* Pods-SampleAgoraBroadcastTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +738,7 @@
 		};
 		DB171C4824D7EEA300FEBA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D07AB977CCB88FA7759C1E /* Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +759,7 @@
 		};
 		DB171C4924D7EEA300FEBA0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA36A8C257A06CDF9474B72B /* Pods-SampleAgoraBroadcast-SampleAgoraBroadcastUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

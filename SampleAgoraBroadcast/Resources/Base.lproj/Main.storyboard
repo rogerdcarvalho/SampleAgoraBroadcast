@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Go-ZK-RuQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mode Selection View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Mode Selection View Controller" customClass="ModeSelectionViewController" customModule="SampleAgoraBroadcast" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to SampleBroadcast!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ew6-aI-KOY" userLabel="Header">
+                                <rect key="frame" x="85" y="108" width="244.5" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdw-S0-6bQ" userLabel="Instructions">
+                                <rect key="frame" x="20" y="148.5" width="374" height="158"/>
+                                <string key="text">Please choose which mode you would like to use the app in:
+
+Choose 'Speaker' to broadcast your camera and microphone to any devices that open this app. 
+
+Choose 'Audience' to receive a broadcast sent by another user.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="RUE-Uh-A5U">
+                                <rect key="frame" x="67" y="326.5" width="280" height="150"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CQy-ov-iid" userLabel="Host Button">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="150"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Speaker" translatesAutoresizingMaskIntoConstraints="NO" id="FB2-Be-Pc3">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="ORo-I5-nTB"/>
+                                                    <constraint firstAttribute="width" constant="120" id="XBV-bx-7Ux"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUS-Zv-wgf">
+                                                <rect key="frame" x="0.0" y="120" width="120" height="30"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="179-o8-LjK" userLabel="Audience Button">
+                                        <rect key="frame" x="160" y="0.0" width="120" height="150"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Audience" translatesAutoresizingMaskIntoConstraints="NO" id="aKV-Lu-w5n">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="Lor-u4-agP"/>
+                                                    <constraint firstAttribute="width" constant="120" id="X2c-uB-RJr"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audience" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1a-iJ-77i">
+                                                <rect key="frame" x="0.0" y="120" width="120" height="30"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="id6-fj-gFT"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ew6-aI-KOY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3W7-KN-SbP"/>
+                            <constraint firstItem="RUE-Uh-A5U" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5n5-xK-Ofn"/>
+                            <constraint firstItem="wdw-S0-6bQ" firstAttribute="top" secondItem="Ew6-aI-KOY" secondAttribute="bottom" constant="20" id="F7c-an-WYY"/>
+                            <constraint firstItem="wdw-S0-6bQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-40" id="HUU-oa-tku"/>
+                            <constraint firstItem="wdw-S0-6bQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JDH-bG-gmP"/>
+                            <constraint firstItem="Ew6-aI-KOY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="O1i-KL-x3j"/>
+                            <constraint firstItem="RUE-Uh-A5U" firstAttribute="top" secondItem="wdw-S0-6bQ" secondAttribute="bottom" constant="20" id="htE-gQ-sag"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mode Selection" id="NqD-UK-DXv"/>
+                    <connections>
+                        <outlet property="audienceButton" destination="179-o8-LjK" id="iqy-2w-3sv"/>
+                        <outlet property="audienceImage" destination="aKV-Lu-w5n" id="rEr-6f-0kc"/>
+                        <outlet property="speakerButton" destination="CQy-ov-iid" id="ugp-oR-jmc"/>
+                        <outlet property="speakerImage" destination="FB2-Be-Pc3" id="0ZH-Du-DkY"/>
+                        <segue destination="Nx3-Bi-PqQ" kind="show" identifier="ModeToBroadcastSegue" id="3JQ-vv-EId"/>
+                        <segue destination="YRF-0R-i4P" kind="show" identifier="ModeToAudienceSegue" id="VIN-J6-fEZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+        </scene>
+        <!--Your Broadcast-->
+        <scene sceneID="WaW-tg-Oir">
+            <objects>
+                <viewController id="Nx3-Bi-PqQ" customClass="BroadcastViewController" customModule="SampleAgoraBroadcast" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tc7-x5-aiv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLb-Mk-13T" userLabel="Video View">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 00 : 00 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzZ-HO-3lF" userLabel="Timer">
+                                <rect key="frame" x="178.5" y="128" width="57.5" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 0 Viewers " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXi-Hp-aG2" userLabel="Viewers">
+                                <rect key="frame" x="327" y="838" width="67" height="16"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfP-aW-IIn" userLabel="Camera Button">
+                                <rect key="frame" x="90" y="816" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Zem-pK-252"/>
+                                    <constraint firstAttribute="width" constant="60" id="aE8-t8-gyK"/>
+                                </constraints>
+                                <state key="normal" image="CamOff"/>
+                                <connections>
+                                    <action selector="cameraButtonPressed:" destination="Nx3-Bi-PqQ" eventType="touchUpInside" id="kcb-us-5at"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uG3-4y-D7n" userLabel="Mic Button">
+                                <rect key="frame" x="20" y="816" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Gri-Lk-nXG"/>
+                                    <constraint firstAttribute="height" constant="60" id="R3E-45-0ur"/>
+                                </constraints>
+                                <state key="normal" image="MicOff"/>
+                                <connections>
+                                    <action selector="micButtonPressed:" destination="Nx3-Bi-PqQ" eventType="touchUpInside" id="Zcb-NZ-iYv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytm-Dl-uSg" userLabel="Switch Button">
+                                <rect key="frame" x="334" y="108" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="aQj-Jl-bq3"/>
+                                    <constraint firstAttribute="width" constant="60" id="jVZ-aK-z3X"/>
+                                </constraints>
+                                <state key="normal" image="SwitchCamera"/>
+                                <connections>
+                                    <action selector="switchButtonPressed:" destination="Nx3-Bi-PqQ" eventType="touchUpInside" id="fgP-2X-3ii"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uG3-4y-D7n" firstAttribute="bottom" secondItem="tc7-x5-aiv" secondAttribute="bottom" constant="-20" id="2WN-et-6dk"/>
+                            <constraint firstItem="YLb-Mk-13T" firstAttribute="top" secondItem="QxO-1f-Mc8" secondAttribute="top" id="2dx-xi-usd"/>
+                            <constraint firstItem="YLb-Mk-13T" firstAttribute="leading" secondItem="tc7-x5-aiv" secondAttribute="leading" id="3Te-Ve-E56"/>
+                            <constraint firstItem="YLb-Mk-13T" firstAttribute="trailing" secondItem="tc7-x5-aiv" secondAttribute="trailing" id="8iB-aG-jjT"/>
+                            <constraint firstItem="Ytm-Dl-uSg" firstAttribute="trailing" secondItem="QxO-1f-Mc8" secondAttribute="trailing" constant="-20" id="94Q-Fc-FWs"/>
+                            <constraint firstItem="YLb-Mk-13T" firstAttribute="bottom" secondItem="tc7-x5-aiv" secondAttribute="bottom" id="BMi-H5-ded"/>
+                            <constraint firstItem="mXi-Hp-aG2" firstAttribute="trailing" secondItem="QxO-1f-Mc8" secondAttribute="trailing" constant="-20" id="DQO-mh-d1P"/>
+                            <constraint firstItem="uG3-4y-D7n" firstAttribute="leading" secondItem="QxO-1f-Mc8" secondAttribute="leading" constant="20" id="H4M-fl-yel"/>
+                            <constraint firstItem="gfP-aW-IIn" firstAttribute="centerY" secondItem="mXi-Hp-aG2" secondAttribute="centerY" id="QHu-5b-U6a"/>
+                            <constraint firstItem="gzZ-HO-3lF" firstAttribute="top" secondItem="QxO-1f-Mc8" secondAttribute="top" constant="40" id="Sg2-rh-Pzm"/>
+                            <constraint firstItem="gfP-aW-IIn" firstAttribute="bottom" secondItem="tc7-x5-aiv" secondAttribute="bottom" constant="-20" id="Ywo-vz-AqN"/>
+                            <constraint firstItem="gzZ-HO-3lF" firstAttribute="centerX" secondItem="QxO-1f-Mc8" secondAttribute="centerX" id="de3-jL-tTh"/>
+                            <constraint firstItem="Ytm-Dl-uSg" firstAttribute="top" secondItem="QxO-1f-Mc8" secondAttribute="top" constant="20" id="mgg-s1-bH3"/>
+                            <constraint firstItem="gfP-aW-IIn" firstAttribute="leading" secondItem="uG3-4y-D7n" secondAttribute="trailing" constant="10" id="raN-kC-P1C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QxO-1f-Mc8"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Your Broadcast" id="ddY-d7-qmV"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="gfP-aW-IIn" id="Enr-Kf-aF8"/>
+                        <outlet property="micButton" destination="uG3-4y-D7n" id="QV5-gT-Nzj"/>
+                        <outlet property="switchButton" destination="Ytm-Dl-uSg" id="puw-fP-wkx"/>
+                        <outlet property="timerLabel" destination="gzZ-HO-3lF" id="QWN-Mb-pxq"/>
+                        <outlet property="videoView" destination="YLb-Mk-13T" id="3Cg-GR-FCl"/>
+                        <outlet property="viewerCountLabel" destination="mXi-Hp-aG2" id="TWn-le-pcb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WAl-ZE-2dV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2334.7826086956525" y="-220.3125"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N0V-1V-Knc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Go-ZK-RuQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Fap-An-tYZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TIv-iX-aWI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbp-U6-Pyk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--Available Broadcast-->
+        <scene sceneID="R6E-xT-LTi">
+            <objects>
+                <viewController id="YRF-0R-i4P" customClass="AudienceViewController" customModule="SampleAgoraBroadcast" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aM3-3o-1hw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="feh-Q1-cda" userLabel="Stream View">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting for a speaker to start a broadcast..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9r-C2-uMf">
+                                        <rect key="frame" x="34.5" y="377" width="345" height="20.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="J9r-C2-uMf" firstAttribute="centerX" secondItem="feh-Q1-cda" secondAttribute="centerX" id="cQc-ZG-Kmm"/>
+                                    <constraint firstItem="J9r-C2-uMf" firstAttribute="width" secondItem="feh-Q1-cda" secondAttribute="width" multiplier="0.833333" id="dfw-OI-uYq"/>
+                                    <constraint firstItem="J9r-C2-uMf" firstAttribute="centerY" secondItem="feh-Q1-cda" secondAttribute="centerY" id="tk2-y4-U8X"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 00 : 00 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eI1-J6-iW7" userLabel="Timer">
+                                <rect key="frame" x="178.5" y="128" width="57.5" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Kld-b5-ztM" firstAttribute="trailing" secondItem="feh-Q1-cda" secondAttribute="trailing" id="4e6-0w-h4S"/>
+                            <constraint firstItem="eI1-J6-iW7" firstAttribute="top" secondItem="Kld-b5-ztM" secondAttribute="top" constant="40" id="9V2-ML-12m"/>
+                            <constraint firstItem="feh-Q1-cda" firstAttribute="top" secondItem="Kld-b5-ztM" secondAttribute="top" id="9a0-WU-xbT"/>
+                            <constraint firstItem="Kld-b5-ztM" firstAttribute="bottom" secondItem="feh-Q1-cda" secondAttribute="bottom" id="Nvx-xC-A1I"/>
+                            <constraint firstItem="feh-Q1-cda" firstAttribute="height" secondItem="Kld-b5-ztM" secondAttribute="height" id="OF7-eg-xe4"/>
+                            <constraint firstItem="feh-Q1-cda" firstAttribute="width" secondItem="Kld-b5-ztM" secondAttribute="width" id="QG1-3p-Olh"/>
+                            <constraint firstItem="eI1-J6-iW7" firstAttribute="centerX" secondItem="Kld-b5-ztM" secondAttribute="centerX" id="f09-cS-yHJ"/>
+                            <constraint firstItem="feh-Q1-cda" firstAttribute="leading" secondItem="Kld-b5-ztM" secondAttribute="leading" id="tbF-da-dys"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kld-b5-ztM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Available Broadcast" id="Hh7-Pa-Pm9"/>
+                    <connections>
+                        <outlet property="streamView" destination="feh-Q1-cda" id="CRo-wT-Rtk"/>
+                        <outlet property="timerLabel" destination="eI1-J6-iW7" id="eyy-4z-ajA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8r2-NU-obh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2335" y="463"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Audience" width="2000" height="960"/>
+        <image name="CamOff" width="44" height="44"/>
+        <image name="MicOff" width="44" height="44"/>
+        <image name="Speaker" width="800" height="533"/>
+        <image name="SwitchCamera" width="44" height="44"/>
+    </resources>
+</document>
