@@ -226,10 +226,10 @@ Choose 'Audience' to receive a broadcast sent by another user.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="feh-Q1-cda" userLabel="Stream View">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting for a speaker to start a broadcast..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9r-C2-uMf">
-                                        <rect key="frame" x="34.5" y="377" width="345" height="20.5"/>
+                                        <rect key="frame" x="34.5" y="394" width="345" height="20.5"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -252,14 +252,12 @@ Choose 'Audience' to receive a broadcast sent by another user.</string>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Kld-b5-ztM" firstAttribute="trailing" secondItem="feh-Q1-cda" secondAttribute="trailing" id="4e6-0w-h4S"/>
+                            <constraint firstItem="feh-Q1-cda" firstAttribute="trailing" secondItem="aM3-3o-1hw" secondAttribute="trailing" id="4e6-0w-h4S"/>
                             <constraint firstItem="eI1-J6-iW7" firstAttribute="top" secondItem="Kld-b5-ztM" secondAttribute="top" constant="40" id="9V2-ML-12m"/>
                             <constraint firstItem="feh-Q1-cda" firstAttribute="top" secondItem="Kld-b5-ztM" secondAttribute="top" id="9a0-WU-xbT"/>
-                            <constraint firstItem="Kld-b5-ztM" firstAttribute="bottom" secondItem="feh-Q1-cda" secondAttribute="bottom" id="Nvx-xC-A1I"/>
-                            <constraint firstItem="feh-Q1-cda" firstAttribute="height" secondItem="Kld-b5-ztM" secondAttribute="height" id="OF7-eg-xe4"/>
-                            <constraint firstItem="feh-Q1-cda" firstAttribute="width" secondItem="Kld-b5-ztM" secondAttribute="width" id="QG1-3p-Olh"/>
+                            <constraint firstItem="feh-Q1-cda" firstAttribute="bottom" secondItem="aM3-3o-1hw" secondAttribute="bottom" id="Nvx-xC-A1I"/>
                             <constraint firstItem="eI1-J6-iW7" firstAttribute="centerX" secondItem="Kld-b5-ztM" secondAttribute="centerX" id="f09-cS-yHJ"/>
-                            <constraint firstItem="feh-Q1-cda" firstAttribute="leading" secondItem="Kld-b5-ztM" secondAttribute="leading" id="tbF-da-dys"/>
+                            <constraint firstItem="feh-Q1-cda" firstAttribute="leading" secondItem="aM3-3o-1hw" secondAttribute="leading" id="tbF-da-dys"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kld-b5-ztM"/>
                     </view>
