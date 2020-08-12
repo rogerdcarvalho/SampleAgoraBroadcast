@@ -12,7 +12,7 @@ import Foundation
 struct Configuration {
     static let AppId = "96fd8441c20247d5b5c8cafa079ca29b"
     static let ChannelName = "rdcMedia"
-    static let Token = "0067fb680be3b8242b7a7be3dd220e4343aIADrhIHlBjfqFUfH99cbpmuNUi8gyMeMYHjQ6mUfXK/ZYZMlARcAAAAAEABlagsGJ4MzXwEAAQAngzNf"
+    static let Token = "0067fb680be3b8242b7a7be3dd220e4343aIAD/SEa+QA77yCCw4W9qHAP10Symj+UICHWAICp2PbJwPZMlARcAAAAAEADDtGaQGFI1XwEAAQAYUjVf"
     static var StreamId = 10451
     static let DefaultSurveyMonkeyCode = "7FDV9CZ"
 
