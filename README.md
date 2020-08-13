@@ -13,7 +13,7 @@ This is a simple Xcode project for iPhone and iPad. It uses the [Agora Live Inte
 ## Instructions
 Clone this repository to your local machine. This repository requires [CocoaPods](https://cocoapods.org). Terminal into the root folder of the project and run `pod install`. Then open `SampleAgoraBroadcast.xcworkspace`. Click on the `SampleAgoraBroadcast` project and then on `Signing & Capabilities`. Check `Automatically Manage Signing` and select any team that works for your Xcode installation. 
 
-You should now be able to run the SampleAgoraBroadcast target on an iPad or iPhone. Running this project in a simulator is NOT supported. The app is configured with a working configuration so it should function right out of the box. If you however wish to use any of the source code for your own project, please open `Configuration.swift` under `Supporting Files` and change the `AppId`, `ChannelName` and `Token` to your own keys. You can get these for free at https://sso.agora.io/v2/signup. You can design your own surveys and view live responses using the web dashboard of https://www.surveymonkey.com.
+You should now be able to run the SampleAgoraBroadcast target on an iPad or iPhone. Running this project in a simulator is NOT supported. Before you can use this app, please open `Configuration.swift` under `Supporting Files` and change the `AppId`, `ChannelName` and `Token` to your own keys. You can get these for free at https://sso.agora.io/v2/signup. You can design your own surveys and view live responses using the web dashboard of https://www.surveymonkey.com.
 
 ## How it works
 The app has 3 ViewControllers. One for the launch screen, and then one for a 'Speaker' user and one for an 'Audience' user. It is configured via a Configuration struct that is located under 'Supporting Files'. There are a couple of helper classes and extensions that simplify certain actions. All files are extensively documented.
@@ -25,5 +25,5 @@ The app has 3 ViewControllers. One for the launch screen, and then one for a 'Sp
 The other files simply support the functionality of these two main ViewControllers. It should all be pretty straightforward to understand.
 
 ## Notes
-This library has only been tested on iOS 13. It is however expected to work on any device running iOS 8.0 or later.
+This library has only been tested on iOS 13. It is however expected to work on any device running iOS 9.0 or later.
 
