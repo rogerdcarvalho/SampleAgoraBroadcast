@@ -62,6 +62,11 @@ class AudienceViewController: UIViewController, AgoraRtcEngineDelegate, SMFeedba
      */
     private func receiveStream(){
         
+        if (Configuration.Token.count == 0) {
+            displayAlert(message: "Please setup a token and channel name to use this sample app. You can get these at agora.io and enter them in Configuration.swift")
+            return
+        }
+        
         // Prepare the kit
         agoraKit.setChannelProfile(.liveBroadcasting)
         agoraKit.setClientRole(.audience)

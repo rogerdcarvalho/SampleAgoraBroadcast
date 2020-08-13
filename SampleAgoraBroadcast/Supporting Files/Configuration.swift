@@ -11,8 +11,8 @@ import Foundation
 /// Configuration variables to allow the app to interact with the Agora.io Service
 struct Configuration {
     static let AppId = "96fd8441c20247d5b5c8cafa079ca29b"
-    static let ChannelName = "rdcMedia"
-    static let Token = "0067fb680be3b8242b7a7be3dd220e4343aIAD/SEa+QA77yCCw4W9qHAP10Symj+UICHWAICp2PbJwPZMlARcAAAAAEADDtGaQGFI1XwEAAQAYUjVf"
+    static let ChannelName = ""
+    static let Token = ""
     static var StreamId = 10451
     static let DefaultSurveyMonkeyCode = "7FDV9CZ"
 
